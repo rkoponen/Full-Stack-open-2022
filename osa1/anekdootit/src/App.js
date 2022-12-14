@@ -22,7 +22,7 @@ const App = () => {
 
   const [selected, setSelected] = useState(0)
   const [vote, setVote] = useState(Array(anecdotes.length).fill(0))
-
+  
 
   const handleVote = () => {
     const copy = [...vote]
